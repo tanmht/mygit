@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<button class="btn">din</button>
+		
+	</body>
+	<script type="text/javascript">
+		var btn=document.getElementsByClassName("btn")[0];
+		btn.addEventListener("click",hello1);
+		btn.addEventListener("click",hello);
+		function hello1(){
+			alert(44);
+		}
+		function hello(){
+			alert(888);
+		}
+		
+		
+		var arr1=[1,2,3,4,5,6,7,8,9];
+				var sam=0;
+				for(var i=0;i<arr1.length;i++){
+					if(typeof arr1[i]=="number")
+					sam+=arr1[i];
+				}
+		console.log(sam);
+	</script>
+</html>
